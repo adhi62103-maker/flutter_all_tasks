@@ -131,7 +131,7 @@ class Musify extends StatelessWidget {
                       style: const TextStyle(fontWeight: FontWeight.bold),
                     ),
                     subtitle: Text(song["artist"]!),
-                    trailing: const Icon(Icons.star_border),
+                    trailing: const Icon(Icons.play_arrow),
                   ),
                 );
               },
