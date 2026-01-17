@@ -9,6 +9,9 @@ import 'package:flutter_all_tasks/gridview.dart';
 import 'package:flutter_all_tasks/musify/home.dart';
 import 'package:flutter_all_tasks/musify/now.dart';
 import 'package:flutter_all_tasks/musify/playlist.dart';
+import 'package:flutter_all_tasks/responsive_design/layoutbuilder.dart';
+import 'package:flutter_all_tasks/responsive_design/mediaquery.dart';
+import 'package:flutter_all_tasks/responsive_design/oreintaion.dart';
 import 'package:flutter_all_tasks/tab.dart';
 import 'package:flutter_all_tasks/time_picker.dart';
 import 'package:flutter_all_tasks/xyzreader.dart';
@@ -25,6 +28,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Musify(),);
+      home: LayoutbuilderEx(),);
   }
 }
